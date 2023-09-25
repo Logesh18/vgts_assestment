@@ -1,0 +1,32 @@
+.PurchaseContainer {
+    padding: 20px;
+    flex-direction: column;
+}
+
+.ImageContainer, .CounterContainer {
+    width: 100%;
+    justify-content: center;
+}
+
+.PurchaseContainer, .ImageContainer, .CounterContainer {
+    gap: 20px;
+}
+
+.CounterContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+
+.ImageTag {
+    width:60%;
+    height:400px;
+}
+
+.FormContainer {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0% 10%;
+}

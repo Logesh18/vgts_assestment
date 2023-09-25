@@ -1,0 +1,10 @@
+.App {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.PurchasedDetails:hover, .CardLayout:hover, .CheckoutButton:hover, .Green:hover, .red:hover  {
+  transform: scale(1.05, 1.05);
+}

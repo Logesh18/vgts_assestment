@@ -1,0 +1,33 @@
+.Cart {
+    flex-direction: row;
+    font-size: 16px;
+}
+
+.ButtonContainer, .Cart {
+    gap: 20px;
+    justify-content: center;
+}
+
+.Green {
+    background-color: rgb(6, 172, 0);
+}
+
+.Red {
+    background-color: rgb(221, 52, 66);
+}
+
+.red:disabled {
+    background-color: rgb(193, 191, 191);
+    cursor: not-allowed;
+}
+
+.Green, .Red {
+    font-weight: bold !important;
+
+}
+
+.Green:hover, .red:hover {
+    outline-color: none !important;
+    border: none !important;
+    color:#ffffff !important;
+}
